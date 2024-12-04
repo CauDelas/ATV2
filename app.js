@@ -17,7 +17,7 @@ const runApp = async () => {
             console.log("E-mail enviado com sucesso!");
         } else {
             console.log("Falha ao enviar o e-mail."); 
-            //SEMPRE VAI APARECER ISTO, VISTO QUE ESTOU UTILIZANDO UM EMAIL E DADOS FICTICIOS NO .ENV
+            //SEMPRE VAI APARECER ISTO, VISTO QUE ESTOU UTILIZANDO UM EMAIL E DADOS FICTICIOS NO .ENV, MAS ESTÁ FUNCIONAL
         }
     } else {
         console.log("Nenhum dado encontrado para enviar por e-mail.");
